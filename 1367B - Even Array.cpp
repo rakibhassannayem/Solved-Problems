@@ -27,7 +27,7 @@ speedUp;
         else if(a[i]%2 != f && f==1)
           w1++;          
       }
-
+        
       if(w0!=w1)
         cout<<-1<<endl;
       else

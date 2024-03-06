@@ -4,6 +4,13 @@ using namespace std;
 #define ll long long int
 #define bye return 0
 #define pb push_back
+bool prime(int n){
+    for(int i=2; i<n; i++){
+        if(n%2==0){
+            return 0;break;
+        }
+    }return 1;
+}
 int main(){
 speedUp;
     

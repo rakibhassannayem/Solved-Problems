@@ -1,0 +1,37 @@
+Fixed SetPrecision:
+cout<< fixed << setprecision(3) << n <<endl;
+
+Maximum Number of an Array:
+*max_element(arr, arr + n);
+
+Maximum Number of a Vector:
+*max_element(a.begin(), a.end());
+
+Sort Function:
+sort(a,a+n);
+sort(a,a+n,greater<int>());  //descending
+
+Reverse Function:
+reverse ( a.begin(), a.end() ); 
+
+Divisors:
+for (int div = 1; div <= n; ++div)
+    {
+        if(n%div == 0){
+            cout<<div<<endl;
+            c++;
+            s+=div;
+        }
+    }
+
+BinerySearch:
+binary(){
+      ll l=0,h=2e9,m,n;
+            cin>>n;
+            while(h-l>1){
+                  m=(h+l)/2;
+                  if((m*(m+1)/2)<=n)
+                        l = m;
+                  else
+                        h = m-1;
+}}

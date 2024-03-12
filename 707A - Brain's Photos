@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define speedUp ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+#define ll long long int
+#define bye return 0
+#define pb push_back
+int main(){
+speedUp;
+    int m,n;
+    char c;
+    cin>>m>>n;
+    vector<char>v;
+    for (int i = 0; i < n; i++) {
+      cin>>c;
+      v.pb(c);
+    }
+    int f=0;
+    for (int i = 0; i < v.size(); i++) {
+      if(v[i]=='C' || v[i]=='M' || v[i]=='Y')f=1;
+    }
+    if(f==1)
+      cout<<"#Color"<<endl;
+    else
+      cout<<"#Black&White"<<endl;
+    
+    bye;
+}

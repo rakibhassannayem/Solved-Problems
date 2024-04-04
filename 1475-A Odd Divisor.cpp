@@ -24,6 +24,5 @@ speedUp;
     		cout<<"YES"<<endl;
     }
 
-
     bye;
 }

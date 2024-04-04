@@ -13,7 +13,7 @@ bool prime(int n){
 }
 int main(){
 speedUp;
-    ll t;
+    int t;
     cin>>t;
     while(t--){
     	ll n;
